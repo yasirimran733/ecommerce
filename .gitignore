@@ -6,6 +6,8 @@
 .env.development.local
 .env.test.local
 
+prisma/
+.prisma
 # Dependencies
 node_modules/
 npm-debug.log*
@@ -57,3 +59,4 @@ lerna-debug.log*
 # IDE specific
 .vscode/extensions.json
 .history/
+/generated/prisma
